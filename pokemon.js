@@ -35,7 +35,7 @@ function ShowImage(number, colrow) {
             for (let j = 0; j < this.colrow; j++) {
                 let nameImg = this.arrImg [(this.colrow * i) + j];
                 //alert(nameImg);
-                table += "<td><img src='image0.png' onclick='Click(this,this.name)' name = ' " + nameImg + "'></td>";
+                table += "<td><img src='./image/image0.png' onclick='Click(this,this.name)' name = ' " + nameImg + "'></td>";
             }
             table += "</tr><table>";
             let drawtable = document.getElementById("table");
@@ -47,7 +47,7 @@ function Click(img, name) {
     cout++; // số lần click 1 ảnh
     this.name = name;
     if (cout <= 2) {
-        img.src = "http://localhost:63342/casestudy/image" + this.name.trim() + ".png";
+        img.src = "./image/image" + this.name.trim() + ".png";
         img.setAttribute("onclick", "");
         temp.push(img);
         if (cout === 2) {
@@ -57,10 +57,10 @@ function Click(img, name) {
 }
 function Check(item1, item2) {
     if (item1.name !== item2.name) {
-        item1.src = "image0.png";
+        item1.src = "./image/image0.png";
         item1.setAttribute("onclick", "Click(this,this.name)");
 
-        item2.src = "image0.png";
+        item2.src = "./image/image0.png";
         item2.setAttribute("onclick", "Click(this,this.name)");
     } else {
         checkWin.push(1, 1);
@@ -90,12 +90,12 @@ function LeaderBoard() {
     }
 }
 
-// function BoardReset() {
-//     let Board = new ShowImage(8, 4);
-//     Board.addImg();
-//     Board.drawImage();
-//     coutCheckWin = [];
-// }
+function BoardReset() {
+    let Board = new ShowImage(8, 4);
+    Board.addImg();
+    Board.drawImage();
+    coutCheckWin = [];
+}
 
 LeaderBoard();
 let Board = new ShowImage(8, 4);

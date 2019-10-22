@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a279e94f-3a92-4c69-9962-5e909b3f0028" name="Default Changelist" comment="" />
+    <list default="true" id="a279e94f-3a92-4c69-9962-5e909b3f0028" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +30,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SMtFFuojQvO7DWbBS6zI65pOl7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hứng bia" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -50,11 +68,22 @@
       <workItem from="1571466201470" duration="32000" />
       <workItem from="1571619946003" duration="13323000" />
       <workItem from="1571640902146" duration="9184000" />
-      <workItem from="1571707327781" duration="2496000" />
+      <workItem from="1571707327781" duration="3370000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
