@@ -1,0 +1,34 @@
+img {
+    width: 80px;
+    height: 80px;
+    margin-right: 5px;
+}
+input {
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    background: fuchsia;
+    color: cornsilk;
+}
+#container {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid violet;
+    margin: 40px auto;
+}
+#game {
+    width: 480px;
+    float: left;
+    margin-left: 40px;
+
+}
+#hightscore {
+    width: 480px;
+    float: right;
+}
+h1 {
+    margin-left: 54px;
+}
+#nut {
+    margin-left: 106px;
+}
